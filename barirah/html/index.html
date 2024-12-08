@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishes for My BESTIE</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #f0e68c;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #ff6347;
+        }
+
+        .surprise {
+            position: relative;
+            display: inline-block;
+        }
+
+        .surprise-button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff4747;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .surprise-button:hover {
+            background-color: #ca6d94;
+        }
+
+        .surprise-message {
+            display: none;
+            position: absolute;
+            top: 50px; /* Adjusts the position of the surprise message */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            color: #333;
+            font-size: 18px;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        .surprise-button:hover + .surprise-message {
+            display: block; /* Show the surprise message on hover */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday, Bestie!</h1>
+        <p>To my amazing friend,</p>
+        <p>On your special day, I just want to remind you how much you mean to me.</p>
+        <p>May this year bring you as much happiness as you bring to everyone around you!</p>
+        <p></p>
+        <p>Love you loads!</p>
+        <p>- Your Best Friend</p>
+        <div class="surprise">
+            <button class="surprise-button">Hover for a Surprise!</button>
+            <div class="surprise-message">
+                🎉 You're so precious for me! 🎉
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
